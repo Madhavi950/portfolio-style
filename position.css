@@ -1,0 +1,58 @@
+
+
+
+img-container{
+    width: auto;
+    height: auto;
+}
+image-container{
+    width: auto;
+    height: auto;
+}
+img-container.BR{
+    /* position: absolute; */
+    background-color: black;
+    color: white;
+    /* font-size: bold; */
+    padding: 5px 10px;
+    
+    
+}
+
+.image-1,.image-2,.image-3,.image-4,.image-5,.image-6,.image-7,
+.image-8{
+    
+  width: 320px;
+  height: 300px;
+  border: 2px solid; 
+  object-fit: cover;
+  margin: 5px;
+  display: inline-block;
+  right: 0px;
+  bottom: 0px;
+  position: relative;
+  /* border-radius: 10px; */
+  overflow: hidden;
+}
+
+
+p{
+    
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 7px;
+    position: absolute;
+    top:0px;
+    /* border-radius: 10px; */
+}
+small{
+    display: inline-block;
+    background-color: white;
+    color: blue;
+    position:absolute;
+    padding: 5px;
+    top: 0px;
+    right: 0%;
+
+}
