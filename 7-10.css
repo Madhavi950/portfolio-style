@@ -1,0 +1,64 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+}
+.parent{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border: 10px solid;
+}
+.child{
+    width: 100%;
+    height: 100%;
+    background-color:blue ;
+}
+.newVisitors{
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    background-color: gray;
+  
+}
+.newVisitors>.in-newVisitors{
+    width: 25%;
+    background: green;
+    height: 100%;
+    text-align: center;
+}
+.newUsers{
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    background-color:gray;
+   
+}
+.newUsers>.in-newUsers{
+    width: 50%;
+    background: orange;
+    height: 100%;
+    text-align: center;
+}
+.BounceRate{
+    width: 100%;
+    margin-top: 10px;
+    border: 2px solid;
+    height: 30px;
+    overflow: hidden;
+    background-color: gray;
+  
+}
+.BounceRate>.in-BounceRate{
+    width: 70%;
+    background: red;
+    height: 100%;
+    text-align: center;
+}
